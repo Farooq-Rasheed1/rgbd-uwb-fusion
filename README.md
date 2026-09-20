@@ -2,6 +2,14 @@
 
 An executable, notebook-based demonstration of RGB-D proposals, UWB range-consistency association, and particle filtering with both robots' odometry. Algorithm code is kept directly in the notebook so it can be read and edited alongside the plots.
 
+## Experiment preview
+
+The animation below shows the continuous RGB-D/UWB trajectory visualization at 2× playback speed. It combines camera views, depth, accepted visual events, UWB/odometry baseline, fused estimate, and protected ground truth for evaluation.
+
+![Continuous RGB-D/UWB trajectory preview](docs/media/continuous_trajectory_rgbd_with_gt_2x_preview.gif)
+
+Full 2× MP4 preview: [continuous_trajectory_rgbd_with_gt_2x.mp4](docs/media/continuous_trajectory_rgbd_with_gt_2x.mp4)
+
 ## Quick start
 
 Python 3.11 or newer is recommended. From this repository directory:
