@@ -17,7 +17,7 @@ ffmpeg -hide_banner -loglevel error -y \
   "$output_dir/continuous_trajectory_rgbd_with_gt_3x.mp4"
 
 ffmpeg -hide_banner -loglevel error -y \
-  -i "$input" -an \
+  -ss 55 -i "$input" -an \
   -vf "setpts=PTS/3,scale=960:-2,fps=8" \
   -t 18 -loop 0 \
   "$output_dir/continuous_trajectory_rgbd_with_gt_3x_preview.gif"
