@@ -1,4 +1,4 @@
-# ARP/PRP — RGB-D and UWB relative-pose fusion
+# RGB-D and UWB relative-pose fusion
 
 An executable, notebook-based demonstration of RGB-D proposals, UWB range-consistency association, and particle filtering with both robots' odometry. Algorithm code is kept directly in the notebook so it can be read and edited alongside the plots.
 
@@ -31,7 +31,7 @@ To edit interactively:
 jupyter lab notebooks/02_rgbd_uwb_particle_fusion.ipynb
 ```
 
-For Colab, upload the complete directory to `MyDrive/arp-prp-rgbd-uwb-fusion`, open the notebook, and run all cells. The setup cell mounts Drive and installs dependencies. A notebook opened directly from GitHub still needs the repository's sample files in the runtime. Adjust the setup path if necessary.
+For Colab, upload the complete directory to `MyDrive/rgbd-uwb-fusion`, open the notebook, and run all cells. The setup cell mounts Drive and installs dependencies. A notebook opened directly from GitHub still needs the repository's sample files in the runtime. Adjust the setup path if necessary.
 
 ## What runs
 
