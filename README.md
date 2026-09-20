@@ -4,11 +4,13 @@ An executable, notebook-based demonstration of RGB-D proposals, UWB range-consis
 
 ## Experiment preview
 
-The animation below shows the continuous RGB-D/UWB trajectory visualization at 2× playback speed. It combines camera views, depth, accepted visual events, UWB/odometry baseline, fused estimate, and protected ground truth for evaluation.
+The animation below shows the continuous RGB-D/UWB trajectory visualization at 3× playback speed. It combines camera views, depth, accepted visual events, UWB/odometry baseline, fused estimate, and protected ground truth for evaluation.
 
-![Continuous RGB-D/UWB trajectory preview](docs/media/continuous_trajectory_rgbd_with_gt_2x_preview.gif)
+<p align="center">
+  <img src="docs/media/continuous_trajectory_rgbd_with_gt_3x_preview.gif" alt="Continuous RGB-D/UWB trajectory preview" width="100%">
+</p>
 
-Full 2× MP4 preview: [continuous_trajectory_rgbd_with_gt_2x.mp4](docs/media/continuous_trajectory_rgbd_with_gt_2x.mp4)
+Full 3× MP4 preview: [continuous_trajectory_rgbd_with_gt_3x.mp4](docs/media/continuous_trajectory_rgbd_with_gt_3x.mp4)
 
 ## Quick start
 

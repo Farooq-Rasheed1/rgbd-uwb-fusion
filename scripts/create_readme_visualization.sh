@@ -12,12 +12,12 @@ mkdir -p "$output_dir"
 
 ffmpeg -hide_banner -loglevel error -y \
   -i "$input" -an \
-  -vf "setpts=0.5*PTS,scale=960:-2" \
-  -r 30 -c:v libx264 -crf 26 -preset medium -movflags +faststart \
-  "$output_dir/continuous_trajectory_rgbd_with_gt_2x.mp4"
+  -vf "setpts=PTS/3,scale=1280:-2" \
+  -r 30 -c:v libx264 -crf 25 -preset medium -movflags +faststart \
+  "$output_dir/continuous_trajectory_rgbd_with_gt_3x.mp4"
 
 ffmpeg -hide_banner -loglevel error -y \
   -i "$input" -an \
-  -vf "setpts=0.5*PTS,scale=480:-2,fps=10" \
-  -t 25 -loop 0 \
-  "$output_dir/continuous_trajectory_rgbd_with_gt_2x_preview.gif"
+  -vf "setpts=PTS/3,scale=960:-2,fps=8" \
+  -t 18 -loop 0 \
+  "$output_dir/continuous_trajectory_rgbd_with_gt_3x_preview.gif"
